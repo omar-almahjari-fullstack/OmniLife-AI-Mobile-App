@@ -1,0 +1,76 @@
+# Flutter and Dart generated files
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+**/doc/api/
+app.*.symbols
+app.*.map.json
+
+# Android local state and build output
+android/.gradle/
+android/.kotlin/
+android/local.properties
+android/key.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# iOS generated files and local Xcode state
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/ephemeral/
+ios/Pods/
+ios/Runner/GeneratedPluginRegistrant.*
+ios/Runner.xcodeproj/xcuserdata/
+ios/Runner.xcworkspace/xcuserdata/
+**/*.xcuserstate
+
+# Desktop generated files
+linux/flutter/ephemeral/
+windows/flutter/ephemeral/
+
+# IDE and editor state
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.history/
+
+# Local environments, logs, and temporary files
+.venv/
+venv/
+env/
+.qodo/
+run_log.txt
+*.log
+*.tmp
+*.swp
+
+# Secrets, credentials, signing material, and private environment files
+.env
+.env.*
+!.env.example
+# Contains a provider API key; do not publish until the key is removed.
+lib/services/tools_api.dart
+**/secrets/
+**/credentials/
+**/credentials.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.mobileprovision
+*.provisionprofile
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
